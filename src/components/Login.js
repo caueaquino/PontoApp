@@ -18,11 +18,11 @@ const Login = (props) => {
             <TextInput secureTextEntry={true} placeholder="Senha" style={style.inputStyle}></TextInput>
 
             <TouchableOpacity style={style.buttonStyle} >
-                <Button onPress={() => {mainRoute();}} title="Entrar" color="#D98E04" ></Button>
+                <Button onPress={() => {mainRoute();}} title="Entrar" color="#F2C12E" ></Button>
             </TouchableOpacity>
             
             <TouchableOpacity style={style.buttonStyle} >
-                <Button onPress={() => {registerRoute();}} title="Cadastrar-se" fontSize={25} color="#D98E04" ></Button>
+                <Button onPress={() => {registerRoute();}} title="Cadastrar-se" fontSize={25} color="#F2C12E" ></Button>
             </TouchableOpacity>
             
             <Text onPress={() => {recoverRoute();}} style={style.recoverStyle}>Esqueceu a senha ?</Text>
@@ -32,7 +32,7 @@ const Login = (props) => {
 
 const style = StyleSheet.create({
     loginStyle: {
-        backgroundColor: "#5C12A6",
+        backgroundColor: "#244673",
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -67,7 +67,7 @@ const style = StyleSheet.create({
         marginBottom: 10
     },
     inputStyle: {
-        backgroundColor: '#7F25D9',
+        backgroundColor: '#A0B9D9',
         color: 'white',
         minWidth: '95%',
         paddingLeft: "5%",
@@ -80,7 +80,7 @@ const style = StyleSheet.create({
         marginTop: 10,
         width: '95%',
         borderRadius: 30,
-        backgroundColor: '#2F0459',
+        backgroundColor: '#F2C12E',
     },
     recoverStyle: {
         color: '#F2E205',

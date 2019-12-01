@@ -16,10 +16,10 @@ const MainPage = createAppContainer(
   {
     initialRouteName: 'Ponto',
     style:{
-        backgroundColor: '#5B12A5'
+        backgroundColor: '#A0B9D9'
     },
     contentOptions: {
-        activeTintColor: '#2E0459',
+        activeTintColor: '#F2E205',
         inactiveTintColor: 'white',
         labelStyle: {
             fontSize: 30,

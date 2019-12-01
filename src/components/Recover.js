@@ -16,11 +16,11 @@ const Recover = (props) => {
             <TextInput placeholder="E-mail" style={style.inputStyle}></TextInput>
 
             <TouchableOpacity style={style.buttonStyle} >
-                <Button onPress={() => {backRoute();}} title="Confirmar" color="#D98E04" ></Button>
+                <Button onPress={() => {backRoute();}} title="Confirmar" color="#F2C12E" ></Button>
             </TouchableOpacity>
 
             <TouchableOpacity style={style.buttonStyle} >
-                <Button onPress={() => {backRoute();}} title="Voltar" color="#D98E04" ></Button>
+                <Button onPress={() => {backRoute();}} title="Voltar" color="#F2C12E" ></Button>
             </TouchableOpacity>
         </View>  
     );
@@ -71,7 +71,7 @@ const style = StyleSheet.create({
         marginTop: 18,
         width: '95%',
         borderRadius: 30,
-        backgroundColor: '#48592E',
+        backgroundColor: '#F2C12E',
     },
 });
 

@@ -30,11 +30,11 @@ const Register = (props) => {
             </Picker>
 
             <TouchableOpacity style={style.buttonStyle} >
-                <Button onPress={() => {backRoute();}} title="Confirmar" color="#D98E04" ></Button>
+                <Button onPress={() => {backRoute();}} title="Confirmar" color="#F2C12E" ></Button>
             </TouchableOpacity>
 
             <TouchableOpacity style={style.buttonStyle} >
-                <Button onPress={() => {backRoute();}} title="Cancelar" color="#D98E04" ></Button>
+                <Button onPress={() => {backRoute();}} title="Cancelar" color="#F2C12E" ></Button>
             </TouchableOpacity>
       </View>  
     );
@@ -84,7 +84,7 @@ const style = StyleSheet.create({
         marginTop: 15,
         width: '95%',
         borderRadius: 30,
-        backgroundColor: '#48592E',
+        backgroundColor: '#F2C12E',
     },
 });
 

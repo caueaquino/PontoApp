@@ -10,7 +10,7 @@ const PontoPage = (props) => {
     <View style={style.view} >
       
       <View style={style.header} >
-        <Button title="☰" color='#D88E04' onPress={() => {props.navigation.openDrawer();}} ></Button>
+        <Button title="☰" color='#F2C12E' onPress={() => {props.navigation.openDrawer();}} ></Button>
 
         <View style={style.rowStyle}>
           <Text style={style.title1Style}>Ponto</Text>
@@ -86,7 +86,7 @@ const style = StyleSheet.create({
       flexDirection: 'row',
       width: '100%',
       height: 60,
-      backgroundColor: '#48592E'
+      backgroundColor: '#CEDEF2'
     },
     tab: {
       backgroundColor: '#A0B9D9',

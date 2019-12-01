@@ -58,7 +58,7 @@ const Resume = (props) => {
 const style = StyleSheet.create({
     resume: {
         height: '100%',
-        backgroundColor: '#7E24D8',
+        backgroundColor: '#A0B9D9',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'flex-start',
@@ -100,7 +100,7 @@ const style = StyleSheet.create({
         flexDirection: 'column'
     },
     text1: {
-        color: '#5B12A5',
+        color: '#244673',
         fontSize: 18,
         fontWeight: '700'
     },
@@ -115,7 +115,7 @@ const style = StyleSheet.create({
         fontWeight: '600'
     },
     text4: {
-        color: '#5B12A5',
+        color: '#244673',
         fontSize: 22,
         fontWeight: '900'
     },

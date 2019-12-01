@@ -8,7 +8,7 @@ const About = (props) => {
         <View style={style.about} >
                 
             <View style={style.header} >
-                <Button title="☰" color='#D88E04' onPress={() => {openDrawer();}} ></Button>
+                <Button title="☰" color='#F2C12E' onPress={() => {openDrawer();}} ></Button>
 
                 <View style={style.rowStyle}>
                     <Text style={style.title1Style}>Ponto</Text>
@@ -28,7 +28,7 @@ const About = (props) => {
                 </Text>
                 
                 <TouchableOpacity style={style.backButton}>
-                    <Button title="VOLTAR" color="#D88E04" onPress={() => {goBack();}}></Button>
+                    <Button title="VOLTAR" color="#F2C12E" onPress={() => {goBack();}}></Button>
                 </TouchableOpacity>
             </View>
         </View>
@@ -37,7 +37,7 @@ const About = (props) => {
 
 const style =  StyleSheet.create({
     about: {
-        backgroundColor: '#5B12A5',
+        backgroundColor: '#A0B9D9',
         height: '100%',
     },
     header: {
